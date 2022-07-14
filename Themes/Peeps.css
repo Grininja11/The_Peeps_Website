@@ -1,0 +1,7 @@
+:root {
+  background: linear-gradient(180deg, #ff0034 0%, #3f5efb 16%, #000000 50%, #3f5efb 84%, #ff0034 100%);
+  --primary-text-color: #ffffff;
+  --scrollbar-background-color: #e4e4e4;
+  --scrollbar-scroll-color: #afb0b3;
+  --text-shadow-color: #000;
+}

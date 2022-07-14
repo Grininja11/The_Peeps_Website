@@ -1,0 +1,56 @@
+:root {
+  user-select: none;
+  font-size: 18.5px;
+  font-family: Quicksand;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  transition: .6s;
+}
+
+/* Scroll bar change */
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbar-background-color);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-scroll-color);
+}
+
+main {
+  text-shadow: 2.5px 2px var(--text-shadow-color);
+}
+
+/* Navigation */
+.flex {
+  display: flex;
+  gap: var(--gap, 1rem);
+}
+
+.Prim-Nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.Prim-Nav a {
+  text-decoration: none;
+}
+
+.Prim-Nav a > [aria-hidded="true"] {
+  font-weight: 700;
+  margin-inline-end: 0.75em;
+}
+
+@media (min-width: 35em) {
+  .Prim-Nav {
+    position: fixed;
+    inset: 0 0 0 30%; /*12:30*/
+  }
+}
+
+/* Main Page */
+main {
+  text-shadow: 2.5px 2px var(--text-shadow-color);
+}
