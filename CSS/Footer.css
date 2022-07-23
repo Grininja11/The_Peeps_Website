@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--footer_color);
+  position: relative;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  user-select: auto;
+  font-size: 14px;
+  font-family: Quicksand;
+  color: var(--primary-text-color);
+  transition: .6s;
+}
+
+.Footer_Ref {
+  display: flex;
+  justify-content: center;  
+  margin: 0 auto;
+}
+.Head {
+
+}
+
+founders {
+  display: flex;
+  justify-content: right;
+}
+
+.Peeps_YOS {
+  font-size: 20px;
+}

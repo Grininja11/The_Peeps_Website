@@ -6,6 +6,10 @@
   color: var(--primary-text-color);
   transition: .6s;
 }
+::selection {
+  background: var(--Highlight_color);
+}
+
 
 /* Scroll bar change */
 body::-webkit-scrollbar {
@@ -22,35 +26,17 @@ main {
   text-shadow: 2.5px 2px var(--text-shadow-color);
 }
 
-/* Navigation */
-.flex {
-  display: flex;
-  gap: var(--gap, 1rem);
-}
-
-.Prim-Nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.Prim-Nav a {
-  text-decoration: none;
-}
-
-.Prim-Nav a > [aria-hidded="true"] {
-  font-weight: 700;
-  margin-inline-end: 0.75em;
-}
-
-@media (min-width: 35em) {
-  .Prim-Nav {
-    position: fixed;
-    inset: 0 0 0 30%; /*12:30*/
-  }
-}
-
 /* Main Page */
 main {
   text-shadow: 2.5px 2px var(--text-shadow-color);
+}
+
+/* HEADER */
+header {
+  color: var(--primary-text-color);
+  background-color: #ff0000;
+  border-radius: 300px;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
 }

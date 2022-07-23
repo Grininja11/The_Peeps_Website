@@ -4,4 +4,16 @@
   --scrollbar-background-color: #ffffff;
   --scrollbar-scroll-color: #e4e4e4;
   --text-shadow-color: #0000001e;
+  --Highlight_color: #3271ca89;
+
+  /* Button colors */
+  --button-border-color: #000000;
+  --button-background-color: #eeeeee;
+  /* Hover */
+  --button-border-hover-color: #a6abba;
+  --button-background-hover-color: #cfcfcf;
+  --text-hover-color: #161617;
+  
+  /* Theme Page Specific colors */
+  --TEAM_NAV-Greninja11_Color: #0057d2;
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up - ThePeeps</title>
+  <link rel="icon" type="image" href="/Icons/Other/System/Login-Signup.png ">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/CSS/signup_login-Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="container">
+    <form class="form" id="createAccount">
+        <h1 class="form_title">Sign Up (DOES NOT WORK!)</h1>
+
+        <div class="form_input_group">
+            <input type="text" class="form_input" id="signupUsername" autofocus placeholder="Your Cool Username">
+            <div class="error"></div>
+        </div>
+
+        <div class="form_input_group">
+            <input type="email" class="form_input" id="Email" autofocus placeholder="Your Cool Email Address">
+            <div class="error"></div>
+        </div>
+
+        <div class="form_input_group">
+            <input type="password" class="form_input" id="Pass" autofocus placeholder="Your Cool Password">
+            <div class="error"></div>
+        </div>
+
+        <div class="form_input_group">
+            <input type="password" class="form_input" id="ConfPass" autofocus placeholder="Confirm Your Cool Password">
+            <div class="error"></div>
+        </div>
+
+        <button class="form_button" type="submit">Continue to Your new Cool Account!</button>
+
+        <p class="form_text">
+            <a class="form_link" href="Login.html">You already have a Cool Account? Login here!</a>
+        </p>
+    </form>
+
+    <div class="Logo_Container">
+      <img class="Logo" src="/Icons/Logos/PEEPS_MAIN_LOGO-Circle_Var.png" onClick="parent.location='/Home.html'" width="200" height="200">
+    <div>
+  </div>
+
+  <style>
+  .Logo_Container {
+    position: relative;
+    bottom: -100px;
+  }
+  .Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    transition: .2s;
+  }
+  .Logo:hover {
+    transform: scale(1.03);
+  } 
+  </style>
+
+  <script src="/JavaScript/Sign_Up.js" defer></script>
+
+  <!-- Credit to dcode on YT ;) -->
+  
+</body>
+</html>

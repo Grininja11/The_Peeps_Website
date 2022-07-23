@@ -1,0 +1,80 @@
+:root {
+  user-select: none;
+  font-size: 55px;
+  font-family: Quicksand;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  transition: .6s;
+}
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbar-background-color);
+}
+body::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-scroll-color);
+  border-radius: 25px;
+}
+select {
+  display: none;
+}
+
+p {
+  text-shadow: 2.5px 2px var(--text-shadow-color);
+  text-align: center;
+  font-style: italic;
+}
+.VERY {
+  transition: .6s;
+}
+.VERY:hover {
+  color: #29ff03;
+  text-shadow: 2.5px 2px #044412;
+}
+
+button {
+  position: relative;
+  border: 2px solid var(--button-border-color);
+  border-radius: 25px;
+  font-size: 40px;
+  color: var(--primary-text-color);
+  background-color: var(--button-background-color);
+  transition: 0.55s;
+  width: 350px;
+}
+button:hover {
+  background-color: var(--button-background-hover-color);
+  border: 2px solid var(--button-border-hover-color);
+}
+.button1:hover { /* Beaslty */
+  color: #e2123c;
+}
+.button2:hover { /* Brandon */
+  color: #ff0000;
+}
+.button3:hover { /* Elijah */
+  color: #0000ff;
+}
+.button4:hover { /* Gren */
+  color: var(--TEAM_NAV-Greninja11_Color);
+}
+.button5:hover { /* Kami */
+  color: #00e8fd;
+}
+.button6:hover { /* Logan */
+  color: #0d28c0;
+}
+.button7:hover { /* Nikki */
+  color: #ff0000;
+}
+.ButtonArray {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}

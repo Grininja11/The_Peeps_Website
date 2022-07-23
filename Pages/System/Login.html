@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+  <title>Login - ThePeeps</title>
+  <link rel="icon" type="image" href="/Icons/Other/System/Login-Signup.png ">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/CSS/signup_login-Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="container">
+    <form class="form" id="login">
+        <h1 class="form_title">Login (DOES NOT WORK!)</h1>
+        <div class="form_message form_message_error">Incorrect Username or Password!</div>
+        <div class="form_input_group">
+            <input type="text" class="form_input" autofocus placeholder="Your Cool Username or Email">
+            <div class="form_input_error_message"></div>
+        </div>
+        <div class="form_input_group">
+            <input type="password" class="form_input" autofocus placeholder="Your Cool Password">
+            <div class="form_input_error_message"></div>
+        </div>
+        <button class="form_button" type="submit">Continue to Cool Account!</button>
+        <p class="form_text">
+            <a href="#" class="form_link">Did you forget your cool Password? Click here!</a>
+        </p>
+        <p class="form_text">
+            <a class="form_link" href="Sign_Up.html" id="linkCreateAccount">You don't have a Really cool Account? Well you can make one here!</a>
+        </p>
+    </form>
+    <div class="Logo_Container">
+      <img class="Logo" src="/Icons/Logos/PEEPS_MAIN_LOGO-Circle_Var.png" onClick="parent.location='/Home.html'" width="200" height="200">
+    <div>
+  </div>
+
+  <style>
+  .Logo_Container {
+    position: relative;
+    bottom: -100px;
+  }
+  .Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+    transition: .4s;
+  }
+  .Logo:hover {
+    transform: scale(1.05);
+  } 
+  </style>
+
+  <script src="/JavaScript/Account.js" defer></script>
+
+  <!-- Credit to dcode on YT ;) -->
+</body>
