@@ -11,25 +11,30 @@
 <body>
 
   <div class="container">
-    <form class="form" id="login">
-        <h1 class="form_title">Login (DOES NOT WORK!)</h1>
-        <div class="form_message form_message_error">Incorrect Username or Password!</div>
+    <form class="form" id="login" method="post" action="/Include/Login.inc.php">
+        <h1 class="form_title">Login</h1>
+
         <div class="form_input_group">
-            <input type="text" class="form_input" autofocus placeholder="Your Cool Username or Email">
-            <div class="form_input_error_message"></div>
+            <input name="" type="text" class="form_input" autofocus placeholder="Your Cool Username or Email">
+            <div class="error"></div>
         </div>
+
         <div class="form_input_group">
-            <input type="password" class="form_input" autofocus placeholder="Your Cool Password">
-            <div class="form_input_error_message"></div>
+            <input name="" type="password" class="form_input" autofocus placeholder="Your Cool Password">
+            <div class="error"></div>
         </div>
+
         <button class="form_button" type="submit">Continue to Cool Account!</button>
+
         <p class="form_text">
             <a href="#" class="form_link">Did you forget your cool Password? Click here!</a>
         </p>
+
         <p class="form_text">
-            <a class="form_link" href="Sign_Up.html" id="linkCreateAccount">You don't have a Really cool Account? Well you can make one here!</a>
+            <a class="form_link" href="Sign_Up.php" id="linkCreateAccount">You don't have a Really cool Account? Well you can make one here!</a>
         </p>
     </form>
+    
     <div class="Logo_Container">
       <img class="Logo" src="/Icons/Logos/PEEPS_MAIN_LOGO-Circle_Var.png" onClick="parent.location='/Home.html'" width="200" height="200">
     <div>
@@ -51,8 +56,4 @@
     transform: scale(1.05);
   } 
   </style>
-
-  <script src="/JavaScript/Account.js" defer></script>
-
-  <!-- Credit to dcode on YT ;) -->
 </body>

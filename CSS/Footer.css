@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--footer_color);
+  background-color: var(--footer_background_color);
   position: relative;
 }
 * {
@@ -7,22 +7,57 @@ footer {
   margin: 0;
   box-sizing: border-box;
 }
-
 .box {
   user-select: auto;
   font-size: 14px;
   font-family: Quicksand;
-  color: var(--primary-text-color);
   transition: .6s;
 }
-
+.Links_Con {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Head {
+  content: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  color: var(--footer_head_color);
+}
 .Footer_Ref {
   display: flex;
   justify-content: center;  
   margin: 0 auto;
+  flex-direction: column;
+  margin-right: 4rem;
 }
-.Head {
-
+.Footer_Links {
+  text-decoration: none;
+  font-style: italic;
+  color: var(--footer_link_color);
+  text-shadow: 1px 1px #737576;
+}
+/* Footer links spef Colors */
+.YouTube {
+  color: #ff0000;
+  text-shadow: 1px 1px #b70707;
+}
+.Twitter {
+  color: #00ACEE;
+  text-shadow: 1px 1px #036d96;
+}
+.Reddit {
+  color: #ff4500;
+  text-shadow: 1px 1px#a22d03;
+}
+.Discord {
+  color: #7289da;
+  text-shadow: 1px 1px #536195;
+}
+.Help_Us {
+  color: rgba(0, 0, 0, 0.322);
+  text-shadow: none;
 }
 
 founders {
@@ -32,4 +67,6 @@ founders {
 
 .Peeps_YOS {
   font-size: 20px;
+  text-indent: 15px;
+  color: #cbcdcd;
 }

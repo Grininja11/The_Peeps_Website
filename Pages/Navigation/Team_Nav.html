@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+  <title>Members - ThePeeps</title>
+  <link rel="icon" type="image" href="/Icons/Logos/PEEPS_MAIN_LOGO-Circle_Var.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="/CSS/Team_Nav-Style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" id="ThemeStyleSheet" href="/Themes/Dark.css">
+</head>
+<body>
+  <p>Here is all of our <span class="VERY">VERY</span> cool Peeps Members!</p>
+
+  <div class="ButtonArray">
+    <button type="button" class="button1" onClick="parent.location='../Members/Beastly_Boy_52.html'">Beastly Boy 52</button>
+    <button type="button" class="button2" onClick="parent.location='../Members/Brandon_BBB.html'">Brandon BBB</button>
+    <button type="button" class="button3" onClick="parent.location='../Members/Elijah_Perry.html'">Elijah Perry</button>
+    <button type="button" class="button4" onClick="parent.location='../Members/Greninja11.html'">Greninja11</button>
+    <button type="button" class="button5" onClick="parent.location='../Members/Kami.html'">Kami</button>
+    <button type="button" class="button6" onClick="parent.location='../Members/LoganSlinderman.html'">LoganSlinderman</button>
+    <button type="button" class="button7" onClick="parent.location='../Members/Nikki_Doodle.html'">Nikki Doodle</button>
+  </div>
+
+  <select id="ThemeSelect">
+    <option value="Dark">Dark Theme</option>
+    <option value="MidNight">Mid-Night Theme</option>
+    <option value="Light">Light Theme</option>
+    <option value="DimLight">Dim-Light Theme</option>
+  </select>
+
+  <script>
+  function initThemeSelector() {
+  const ThemeSelect = document.getElementById("ThemeSelect");
+  const ThemeStyleSheet = document.getElementById("ThemeStyleSheet");
+  const currentTheme = localStorage.getItem("theme") || "Dark";
+
+  function activateTheme(themeName) {
+    ThemeStyleSheet.setAttribute("href", `/Themes/${themeName}.css`)
+  }
+  ThemeSelect.addEventListener("change", () => {
+    activateTheme(ThemeSelect.value);
+    localStorage.setItem("theme", ThemeSelect.value);
+  });
+  ThemeSelect.value = currentTheme;
+  activateTheme(currentTheme);
+  }
+  initThemeSelector();
+  </script>
+</body>

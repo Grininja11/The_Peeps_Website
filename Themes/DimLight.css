@@ -16,4 +16,10 @@
 
   /* Theme Page Specific colors */
   --TEAM_NAV-Greninja11_Color: #151ab7;
+
+  /* Footer Themes */
+  --footer_background_color: #cfcece;
+  --footer_head_color: #000000;
+  /* Links */
+  --footer_link_color: #000000;
 }

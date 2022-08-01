@@ -39,4 +39,10 @@ header {
   display: flex;
   font-size: 30px;
   justify-content: center;
+  visibility: hidden;
+}
+
+/* Theme Select */
+.Hide {
+  visibility: visible;
 }

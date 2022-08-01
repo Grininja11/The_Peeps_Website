@@ -2,23 +2,23 @@
 <html lang="en" dir="ltr">
 <head> 
   <title>Home Sweet Home - ThePeeps</title>
-  <link rel="icon" type="image" href="Icons/Logos/PEEPS_MAIN_LOGO-Circle_Var.png">
+  <link rel="icon" type="image" href="/Icons/Logos/PEEPS_MAIN_LOGO-Circle_Var.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="CSS/Main_Style.css">
-  <link rel="stylesheet" href="CSS/Footer.css">
-  <link rel="stylesheet" href="CSS/Navigation.css">
-  <link rel="stylesheet" id="ThemeStyleSheet" href="Themes/Dark.css">
+  <link rel="stylesheet" href="/CSS/Main_Style.css">
+  <link rel="stylesheet" href="/CSS/Navigation.css">
+  <link rel="stylesheet" id="ThemeStyleSheet" href="/Themes/Dark.css">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"/> 
 </head>
 
 <body>
 <!--Navigation menu.-->
+  <link rel="stylesheet" href="/CSS/Navigation.css">
   <nav>
     <ul id="Prim-Nav" class="Prim-Nav flex">
       <li class="active">
-        <a href="Home.html"> <!-- Change when added to "Home Folder" -->
+        <a href="/Home.html"> <!-- Change when added to "Home Folder" -->
           <span aria-hidden="true">00</span>Home
         </a>
       <li>
@@ -38,7 +38,7 @@
           <span aria-hidden="true">04</span>Achivements
         </a>
       <li>
-        <a href="/Pages/Page/Team_Nav.html">
+        <a href="/Pages/Navigation/Team_Nav.html">
           <span aria-hidden="true">05</span>Members
         </a>
       <li>
@@ -61,7 +61,9 @@
                                                                                                                                                           <!--Made by Greninja11 => twitch.tv/greninja11_-->
 <main>
   <p>
-    <header>THIS IS A HUGE WOP, BOOKMARK THIS SITE TO KEEP UP TO DATE, MOST OF OUR FUNCTIONS DO NOT WORK</header>
+
+    <header>THIS IS A HUGE WIP, BOOKMARK THIS SITE TO KEEP UP TO DATE, MOST OF OUR FUNCTIONS DO NOT WORK</header>
+
     <h1>A cool text!</h1>
 
     <p>
@@ -83,56 +85,58 @@
       Dummy text? More like dummy thicc text, amirite?
     </p>
   </main>
-  Themes:
-  <select id="ThemeSelect">
+
+  <select id="ThemeSelect" class="Hide">
     <option value="Dark">Dark Theme</option>
     <option value="MidNight">Mid-Night Theme</option>
     <option value="Light">Light Theme</option>
     <option value="DimLight">Dim-Light Theme</option>
   </select>
-  <!-- Theme Selector Code -->
-  <!-- <script src="JavaScript/Theme_Select.js" defer></script> -->
 </body>
 
+
+
 <!-- Footer -->
+<link rel="stylesheet" href="/CSS/Footer.css">
 <footer class="box">
-  <div class="Links">
+  <div id="footer">
     <div class="Links_Con">
 
       <div class="Footer_Ref"> 
-        <a class="Head">The Peeps</a>
-        <a class="YouTube" href="https://youtube.com/thepeeps">-YouTube</a>
-        <a class="Merch" href="/Pages/Errors/4xx_ERRORS/404.html">-Merch</a> <!-- 404 -->
-        <a class="Us" href="/Pages/Page/Team_Nav.html">-Us</a>
-        <a class="Twitter" href="https://twitter.com/ThePeeps14">-Twitter</a>
-        <a class="Reddit" href="https://www.reddit.com/r/thecoolpeople/">-Reddit</a>
+        <h1 class="Head">The Peeps</h1>
+        <a class="YouTube Footer_Links" href="https://youtube.com/thepeeps">-YouTube</a>
+        <a class="Discord Footer_Links" href="https://discord.gg/QvPp85TawF">-Discord</a>
+        <a class="Twitter Footer_Links" href="https://twitter.com/ThePeeps14">-Twitter</a>
+        <a class="Reddit Footer_Links" href="https://www.reddit.com/r/thecoolpeople/">-Reddit</a>
+        <a class="Us Footer_Links" href="/Pages/Navigation/Team_Nav.html">-Us</a>                
+        <a class="Merch Footer_Links" href="/Pages/Errors/4xx_ERRORS/404.html">-Merch</a> <!-- 404 -->
       </div>
 
       <div class="Footer_Ref">
-        <a class="Head">Help</a>
-        <a class="Contact" href="/Pages/Errors/4xx_ERRORS/404.html">-Contact us</a> <!-- 404 -->
-        <a class="Ticket" href="/Pages/Errors/4xx_ERRORS/404.html">-Submit a Ticket</a> <!-- 404 --> 
-        <a class="TOS" href="/Pages/Website/ToS.html">-ToS</a>
+        <h1 class="Head">Help</h1>
+        <a class="Contact Footer_Links" href="/Pages/Errors/4xx_ERRORS/404.html">-Contact Us</a> <!-- 404 -->
+        <a class="Ticket Footer_Links" href="/Pages/Errors/4xx_ERRORS/404.html">-Submit a Ticket</a> <!-- 404 --> 
+        <a class="TOS Footer_Links" href="/Pages/Website/ToS.html">-ToS</a>
       </div>
 
       <div class="Footer_Ref">
-        <a class="Head">Our Site</a>
-        <a class="Account" href="/Pages/Errors/4xx_ERRORS/404.html">-Your Account</a> <!-- 404 -->
-        <a class="GitHub" href="/Pages/Errors/4xx_ERRORS/404.html">-Site GitHub</a> <!-- 404 -->
-        <a class="Settings" href="/Pages/System/Settings.html">-Site Settings</a> 
-        <a class="SiteTeam" href="/Pages/Errors/4xx_ERRORS/404.html">-Site Team</a> <!-- 404 -->       
+        <h1 class="Head">Our Site</h1>
+        <a class="Account Footer_Links" href="/Pages/Errors/4xx_ERRORS/404.html">-Your Account</a> <!-- 404 -->
+        <a class="Settings Footer_Links" href="/Pages/System/Settings.html">-Site Settings</a> 
+        <a class="SiteTeam Footer_Links" href="/Pages/Errors/4xx_ERRORS/404.html">-Site Team</a> <!-- 404 -->
+        <a class="GitHub Footer_Links" href="https://github.com/Grininja11/The_Peeps_Website">-Site GitHub (Courtesy of Greninja11)</a>     
       </div>
 
       <div class="Footer_Ref">
-        <a class="Head">Archived</a>
-        <a class="Game" href="/Pages/Errors/4xx_ERRORS/404.html">-GAME</a> <!-- 404 -->      
+        <h1 class="Head">Archived</h1>
+        <a class="Game Footer_Links" href="/Pages/Errors/4xx_ERRORS/404.html">-GAME</a> <!-- 404 -->      
       </div>
                                                           <!-- Brandon is a funny man -->
       <div class="Footer_Ref">
-        <a class="Head">Other</a>
-        <a class="Home" href="/Home.html">-Home</a>
-        <a class="Admin" href="/Pages/Errors/4xx_ERRORS/403.html">-Admin()</a> <!-- 403 --> 
-
+        <h1 class="Head">Other</h1>
+        <a class="Home Footer_Links" href="/Home.html">-Home</a>
+        <a class="Admin Footer_Links" href="/Pages/Errors/4xx_ERRORS/403.html">-Admin()</a> <!-- 403 --> 
+        <a class="Help_Us Footer_Links" href="/Pages/Navigation/Egos_Nav.html">Help Us</a>
       </div>
     </div>
   </div>
@@ -141,12 +145,14 @@
 
   <CopyRight>Copyright "The Peeps" and its affiliations, All credit to site BackEnd/FrontEnd/JS/CSS/HTML/PHP/Ruby Code go to thier respected Users (If used) <span class="CR_Self">-Site made by Greninja11 for ThePeeps</span></CopyRight>
 
-  <h1 class="Peeps_YOS">@ThePeeps 2020 - Present</h1>
+  <h1 class="Peeps_YOS">@ThePeeps 2020 - Present Day</h1>
 
   <founders class="Founder">Founders: <span class="Founder_ND">-Nikki Doodle</span> <span class="Founder_GR">-Greninja11</span> <span class="Founder_03">-{REDACTED}</span></founders>
 
 </footer>
 <!-- End of Footer -->
+
+
 
 <script>
   function initThemeSelector() {
