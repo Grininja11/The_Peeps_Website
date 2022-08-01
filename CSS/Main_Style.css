@@ -39,10 +39,10 @@ header {
   display: flex;
   font-size: 30px;
   justify-content: center;
-  visibility: hidden;
+  visibility: visible;
 }
 
 /* Theme Select */
 .Hide {
-  visibility: visible;
+  visibility: hidden;
 }
