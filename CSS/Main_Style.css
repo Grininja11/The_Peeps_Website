@@ -1,31 +1,7 @@
-:root {
-  user-select: none;
+html {
+  transition: .6s;  
   font-size: 18.5px;
-  font-family: Quicksand;
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
-  transition: .6s;
 }
-::selection {
-  background: var(--Highlight_color);
-}
-
-
-/* Scroll bar change */
-body::-webkit-scrollbar {
-  width: 0.25rem;
-}
-body::-webkit-scrollbar-track {
-  background: var(--scrollbar-background-color);
-}
-body::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-scroll-color);
-}
-
-main {
-  text-shadow: 2.5px 2px var(--text-shadow-color);
-}
-
 /* Main Page */
 main {
   text-shadow: 2.5px 2px var(--text-shadow-color);
@@ -39,10 +15,9 @@ header {
   display: flex;
   font-size: 30px;
   justify-content: center;
-  visibility: visible;
+  visibility: hidden;
 }
 
-/* Theme Select */
 .Hide {
   visibility: hidden;
 }

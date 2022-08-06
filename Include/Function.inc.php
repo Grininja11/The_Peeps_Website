@@ -80,7 +80,5 @@ function createUser($connect, $email, $username, $pwd) {
 
   mysqli_stmt_close($stmt);
 
-  header("location: ../Home.html?error=none")
+  header("location: ../Pages/System/Sign_Up.php?error=none")
 }
-
-# 1:27:10

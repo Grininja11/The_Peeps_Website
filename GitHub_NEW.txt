@@ -1,0 +1,10 @@
+from 08/01/2022 -> Current TIme
+
+-Created "ROOT.css" -> Forced of REDO to other CSS files.
+-Added Footer to other pages.
+-Updated Footer (Looks / Text).
+-Deleted "Other" folder within "Themes".
+-Changed ->some<- tab icons.
+-Added more Dummy txt
+-changed error backgrounds
+-make switch from JS to TS?

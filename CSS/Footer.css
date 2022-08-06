@@ -1,6 +1,11 @@
 footer {
   background-color: var(--footer_background_color);
-  position: relative;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+footer::selection {
+  background: var(--Highlight_color);
 }
 * {
   padding: 0;
@@ -24,19 +29,24 @@ footer {
   font-weight: bolder;
   font-size: 20px;
   color: var(--footer_head_color);
+  text-align: center;
 }
 .Footer_Ref {
   display: flex;
   justify-content: center;  
   margin: 0 auto;
   flex-direction: column;
-  margin-right: 4rem;
 }
 .Footer_Links {
   text-decoration: none;
   font-style: italic;
   color: var(--footer_link_color);
   text-shadow: 1px 1px #737576;
+}
+.Footer_Links:hover {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
 }
 /* Footer links spef Colors */
 .YouTube {
@@ -55,18 +65,34 @@ footer {
   color: #7289da;
   text-shadow: 1px 1px #536195;
 }
+.Spotify {
+  color: #1DB954;
+  text-shadow: 1px 1px #157737;
+}
 .Help_Us {
-  color: rgba(0, 0, 0, 0.322);
+  color: #00000052;
   text-shadow: none;
 }
+.Help_Us:hover {
+  color: #00000018;
+  font-weight: lighter;
+}
 
-founders {
-  display: flex;
-  justify-content: right;
+.Logo_Footer {
+  margin-left: 15px;
+  animation: rotation 30s infinite linear;
+  position: relative;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(359deg);
+  } to {
+    transform: rotate(0deg);
+  }
 }
 
 .Peeps_YOS {
   font-size: 20px;
   text-indent: 15px;
-  color: #cbcdcd;
+  color: var(--footer_peeps_yos);
 }

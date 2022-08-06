@@ -1,0 +1,21 @@
+:root {
+  font-family: Quicksand;
+  background-color: var(--primary-background-color);
+  color: var(--primary-text-color);
+  user-select: none;
+}
+/* Highlight */
+::selection {
+  background: var(--Highlight_color);
+}
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 0.25rem;
+}
+::-webkit-scrollbar-track {
+  background: var(--scrollbar-background-color);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-scroll-color);
+  border-radius: 25px;
+}

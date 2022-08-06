@@ -1,5 +1,4 @@
 --Folders
-Error Folder
 Member Folder
 Page Folder
 System Folder

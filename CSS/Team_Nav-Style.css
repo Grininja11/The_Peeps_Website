@@ -1,29 +1,12 @@
-:root {
-  user-select: none;
-  font-size: 55px;
-  font-family: Quicksand;
-  background-color: var(--primary-background-color);
-  color: var(--primary-text-color);
-  transition: .6s;
-}
-body::-webkit-scrollbar {
-  width: 0.25rem;
-}
-body::-webkit-scrollbar-track {
-  background: var(--scrollbar-background-color);
-}
-body::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-scroll-color);
-  border-radius: 25px;
-}
 select {
-  display: none;
+  visibility: none;
 }
-
 p {
+  font-size: 55px;
   text-shadow: 2.5px 2px var(--text-shadow-color);
   text-align: center;
   font-style: italic;
+  margin-bottom: 70px;
 }
 .VERY {
   transition: .6s;

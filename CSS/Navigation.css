@@ -14,7 +14,7 @@
   text-decoration: none;
 }
 
-.Prim-Nav a > [aria-hidded="true"] {
+.Prim-Nav a > [aria-hidden="true"] {
   font-weight: 700;
   margin-inline-end: 0.75em;
 }

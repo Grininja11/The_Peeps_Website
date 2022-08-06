@@ -39,6 +39,30 @@
 
         <button class="form_button" name="submit" type="submit">Continue to Your new Cool Account!</button>
 
+        <!-- Form Errors -->
+        <?php
+          if (isset($_GET["error"])) {
+            if ($_GET["error"] == "emptyinput") {
+              echo "<p>Please Fill in all of the Cool Inputs!</p>"
+            }
+            else if ($_GET["error"] == "invaliduid") {
+              echo "<p>Please make a Cool Username!</p>"
+            }
+            else if ($_GET["error"] == "invalidemail") {
+              echo "<p>Please use your Cool Email!</p>"
+            }
+            else if ($_GET["error"] == "pwddontmatch") {
+              echo "<p>Oops, Your Passwords don't Match!</p>"
+            }
+            else if ($_GET["error"] == "usernametaken") {
+              echo "<p>Oops, That Username is taken, Please create make another Username!</p>"
+            }
+            else if ($_GET["error"] == "none") {
+              echo "<p>WELCOME TO thecoolpeeps.com!</p>"
+            }
+          }# 1:30:53
+        ?>
+
         <p class="form_text">
             <a class="form_link" href="Login.html">You already have a Cool Account? Login here!</a>
         </p>
