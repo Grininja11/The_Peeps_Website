@@ -1,14 +1,14 @@
-html {
+/*html {
   transition: .6s;  
   font-size: 18.5px;
-}
+}*/
 /* Main Page */
-main {
+/*main {
   text-shadow: 2.5px 2px var(--text-shadow-color);
-}
+}*/
 
 /* HEADER */
-header {
+/*header {
   color: var(--primary-text-color);
   background-color: #ff0000;
   border-radius: 300px;
@@ -20,17 +20,29 @@ header {
 
 .Hide {
   visibility: hidden;
+}*/
+
+html {
+ background-color: gray;
 }
-
-
 eol {
   color: #ff0000;
-  font-size: 30px;
+  font-size: 45px;
   text-align: center;
   margin-top: 50px;
   font-weight: 200;
-  
 }
 .eoltext {
   color: #fff;
+}
+eol2 {
+  font-size: 30px;
+  color: #ff0000;
+}
+a {
+  text-decoration: none;
+  color: #c3bd09;
+}
+eolsign {
+  color: #060773;
 }
