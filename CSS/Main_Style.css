@@ -37,12 +37,13 @@ eol {
 }
 eol2 {
   font-size: 30px;
-  color: #ff0000;
+  color: #fff;
 }
 a {
   text-decoration: none;
   color: #c3bd09;
+  font-size: 40px;
 }
 eolsign {
-  color: #060773;
+  color: blue;
 }
