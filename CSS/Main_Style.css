@@ -21,3 +21,10 @@ header {
 .Hide {
   visibility: hidden;
 }
+
+
+eol {
+ color: #ff0000;
+ font-size: 25px;
+ text-location: center;
+}
