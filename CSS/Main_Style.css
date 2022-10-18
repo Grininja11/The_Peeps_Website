@@ -24,7 +24,9 @@ header {
 
 
 eol {
- color: #ff0000;
- font-size: 25px;
- text-alight: center;
+  color: #ff0000;
+  font-size: 25px;
+  text-aligt: center;
+  margin-top: 30px;
+  
 }
