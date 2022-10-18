@@ -35,11 +35,7 @@ eol {
 }
 .eoltext {
   color: #fff;
-  list-style: none;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 eol2 {
   font-size: 30px;
